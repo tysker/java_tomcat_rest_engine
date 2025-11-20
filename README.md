@@ -1,89 +1,3 @@
-## 🌐 **REST API / Server Technologies**
-
-| Library                                                                                                   | Purpose                                          |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Jersey (Glassfish JAX-RS)** — `jersey-container-servlet`, `jersey-media-json-jackson`, `jersey-cdi2-se` | Main REST framework providing JAX-RS annotations |
-| **Jakarta Servlet API 6.0.0**                                                                             | Required by Tomcat / WAR deployment              |
-| **Jersey Grizzly HTTP Container** (test scope)                                                            | Embedded HTTP server for integration tests       |
-| **Gson**                                                                                                  | JSON serialization (alternative to Jackson)      |
-
----
-
-## 🧩 **Dependency Injection**
-
-| Library             | Purpose                            |
-| ------------------- | ---------------------------------- |
-| **Weld SE (CDI 2)** | CDI dependency injection container |
-
----
-
-## 🔐 **Security**
-
-| Library               | Purpose                                   |
-| --------------------- | ----------------------------------------- |
-| **Nimbus JOSE + JWT** | JWT token creation, parsing, verification |
-| **jbcrypt**           | Password hashing                          |
-
----
-
-## 🛢 **Database & Persistence**
-
-| Library                        | Purpose                          |
-| ------------------------------ | -------------------------------- |
-| **PostgreSQL driver (42.6.0)** | PostgreSQL database connectivity |
-| **MySQL Connector/J (8.0.32)** | MySQL database connectivity      |
-| **EclipseLink JPA (3.0.2)**    | JPA ORM provider                 |
-
----
-
-## 🧪 **Testing Stack**
-
-| Library                               | Purpose                         |
-| ------------------------------------- | ------------------------------- |
-| **JUnit 5 (Jupiter)**                 | Unit testing                    |
-| **Hamcrest**                          | Matcher library                 |
-| **REST Assured**                      | HTTP API integration testing    |
-| **Testcontainers Core**               | Containerized test environments |
-| **Testcontainers MySQL, JDBC, JUnit** | DB container testing support    |
-
----
-
-## 🔧 **Build & Deployment Tools**
-
-| Technology                  | Purpose                       |
-| --------------------------- | ----------------------------- |
-| **Maven**                   | Build system                  |
-| **Tomcat 7 Maven Plugin**   | Remote Tomcat deployment      |
-| **Maven WAR Plugin**        | Creates `.war` package        |
-| **Maven Compiler Plugin**   | Configures Java 17            |
-| **Maven Surefire Plugin**   | Runs tests                    |
-| **Properties Maven Plugin** | Writes POM properties to file |
-
----
-
-## 📝 **Environment Handling**
-
-| Library         | Purpose                                |
-| --------------- | -------------------------------------- |
-| **dotenv-java** | Load environment variables from `.env` |
-
----
-
-## 📊 **Logging**
-
-| Library                    | Purpose             |
-| -------------------------- | ------------------- |
-| **SLF4J API**              | Logging abstraction |
-| **Logback Classic + Core** | Logging backend     |
-
----
-
-## 🖥 **JDK**
-
-* **Java 17**
-
----
-
 # 🚀 Java Tomcat Rest Engine
 
 A full-featured Java REST API built with **Jersey (JAX-RS)**, deployed on **Apache Tomcat**, and backed by **JPA**, **PostgreSQL/MySQL**, **JWT security**, and **Maven**.  
@@ -230,4 +144,89 @@ MIT License.
 
 ---
 
+## 🌐 **REST API / Server Technologies**
+
+| Library                                                                                                   | Purpose                                          |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Jersey (Glassfish JAX-RS)** — `jersey-container-servlet`, `jersey-media-json-jackson`, `jersey-cdi2-se` | Main REST framework providing JAX-RS annotations |
+| **Jakarta Servlet API 6.0.0**                                                                             | Required by Tomcat / WAR deployment              |
+| **Jersey Grizzly HTTP Container** (test scope)                                                            | Embedded HTTP server for integration tests       |
+| **Gson**                                                                                                  | JSON serialization (alternative to Jackson)      |
+
+---
+
+## 🧩 **Dependency Injection**
+
+| Library             | Purpose                            |
+| ------------------- | ---------------------------------- |
+| **Weld SE (CDI 2)** | CDI dependency injection container |
+
+---
+
+## 🔐 **Security**
+
+| Library               | Purpose                                   |
+| --------------------- | ----------------------------------------- |
+| **Nimbus JOSE + JWT** | JWT token creation, parsing, verification |
+| **jbcrypt**           | Password hashing                          |
+
+---
+
+## 🛢 **Database & Persistence**
+
+| Library                        | Purpose                          |
+| ------------------------------ | -------------------------------- |
+| **PostgreSQL driver (42.6.0)** | PostgreSQL database connectivity |
+| **MySQL Connector/J (8.0.32)** | MySQL database connectivity      |
+| **EclipseLink JPA (3.0.2)**    | JPA ORM provider                 |
+
+---
+
+## 🧪 **Testing Stack**
+
+| Library                               | Purpose                         |
+| ------------------------------------- | ------------------------------- |
+| **JUnit 5 (Jupiter)**                 | Unit testing                    |
+| **Hamcrest**                          | Matcher library                 |
+| **REST Assured**                      | HTTP API integration testing    |
+| **Testcontainers Core**               | Containerized test environments |
+| **Testcontainers MySQL, JDBC, JUnit** | DB container testing support    |
+
+---
+
+## 🔧 **Build & Deployment Tools**
+
+| Technology                  | Purpose                       |
+| --------------------------- | ----------------------------- |
+| **Maven**                   | Build system                  |
+| **Tomcat 7 Maven Plugin**   | Remote Tomcat deployment      |
+| **Maven WAR Plugin**        | Creates `.war` package        |
+| **Maven Compiler Plugin**   | Configures Java 17            |
+| **Maven Surefire Plugin**   | Runs tests                    |
+| **Properties Maven Plugin** | Writes POM properties to file |
+
+---
+
+## 📝 **Environment Handling**
+
+| Library         | Purpose                                |
+| --------------- | -------------------------------------- |
+| **dotenv-java** | Load environment variables from `.env` |
+
+---
+
+## 📊 **Logging**
+
+| Library                    | Purpose             |
+| -------------------------- | ------------------- |
+| **SLF4J API**              | Logging abstraction |
+| **Logback Classic + Core** | Logging backend     |
+
+---
+
+## 🖥 **JDK**
+
+* **Java 17**
+
+---
 
